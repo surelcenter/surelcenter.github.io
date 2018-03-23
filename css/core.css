@@ -1,0 +1,204 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif !important;
+    font-weight: 100;
+}
+
+span.name {
+  font-family: 'Amiri', serif;
+}
+
+p, ul {
+  font-size: 1.5em;
+  color: #B48F17;
+}
+
+h2 {
+  margin: 0 !important;
+  padding: 1vw 7vw 1vw 7vw;
+}
+
+p, h3 {
+  padding: 0.2vw 7vw 0.2vw 7.5vw;
+  text-align: justify;
+}
+
+ul {
+  padding: 0 7vw 0 9vw;
+}
+
+li {
+  padding: 0.2vw 0;
+}
+
+div#trustee {
+  text-align: center;
+  color: black;
+}
+
+div#trustee img {
+  height: 80px;
+}
+
+span.name {
+  line-height: 1.25em;
+  float: left;
+  text-align: left;
+  padding: 3px 0.6em 0 0.4em;
+  font-size: 1.85em;
+}
+
+h1.name {
+  font-size: 4vw;
+  padding-bottom: 12vh;
+  padding-top: 20vh;
+}
+
+h2#motto {
+  font-size: 2.5vw;
+  padding: 6vh 0;
+}
+
+div#chevron {
+  padding-top: 4vh;
+}
+
+img.img-padding {
+  float: left;
+  margin: 10px 20px 5px 0;
+  border: 1px solid #222;
+}
+
+hr {
+  border-top: 1px solid #ddd;
+}
+
+header {
+    height: 50vw;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: #B48F17        ;
+    background: url("../img/sacred.JPG") no-repeat top center fixed;
+    background-size: cover;
+}
+
+#menu img:hover, #menu span:hover {
+  cursor: pointer;
+}
+
+footer {
+  color: #ddd;
+  background-color: #333;
+  text-align: center;
+  padding: 2em;
+}
+
+footer a {
+  text-decoration: none;
+  font-weight: 100;
+  color: #ddd !important;
+}
+
+img.client {
+  height: 4vw;
+  margin: 0 4vw;
+  border: 1px solid #eee;
+}
+
+img.client-x {
+  height: 4.5vw;
+  margin: 0 4vw;
+  border: 1px solid #eee;
+}
+
+a, a:visited, a:active, a:hover, a:focus {
+  text-decoration: none !important;
+	color: #445 !important;
+  font-weight: bold;
+}
+
+.rotate::before {
+  font-size: 2.4vw;
+  line-height: 3.7vw;
+}
+
+.rotate{
+    height: 4vw;
+    width: 4vw;
+    -moz-transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+
+.rotate.motion {
+    -moz-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
+}
+
+div#menu {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  color: #444;
+  line-height: 5em;
+  border-bottom: 1px solid grey;
+}
+
+div#menu a {
+  padding-right: 2em;
+  font-size: 1.3vw;
+  color: #B48F17 !important;
+  font-weight: 400;
+}
+
+div#menu > img {
+  float: left;
+  height: 4em;
+  padding-left: 20px;
+  margin-top: 0.5em;
+}
+
+div#splash {
+  margin-top: 5em;
+  height: 90vh;
+  color: black;
+  line-height: normal;
+  text-align: center;
+}
+
+div#splash a {
+  color: black !important;
+}
+
+div#splash h1, div#splash h2  {
+  font-weight: 100;
+}
+
+div#splash > img.logo {
+  height: 8vw;
+  margin-top: 12vh;
+}
+
+div#content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.indent {
+  margin-left: 2em;
+}
+
+.ts {
+  margin-left: 0.5em;
+}
